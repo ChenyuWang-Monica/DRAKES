@@ -1,0 +1,12 @@
+name: dnaconv
+type: cnn 
+length: 200 # for gosai
+hidden_dim: 128
+num_cnn_stacks: 4
+dropout: 0.0
+clean_data: False
+
+cls_free_guidance: False
+cls_free_threshold: 2.52
+cls_free_prob: 0.3
+cls_free_weight: 0.3 # weight in sampling
