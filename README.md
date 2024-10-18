@@ -1,6 +1,6 @@
 # Fine-Tuning Discrete Diffusion Models via Reward Optimization with Applications to DNA and Protein Design
 
-The repository contains the code for the `DRAKES` method presented in the paper: *Fine-Tuning Discrete Diffusion Models via Reward Optimization with Applications to DNA and Protein design (2024)*.
+The repository contains the code for the `DRAKES` method presented in the paper: *[Fine-Tuning Discrete Diffusion Models via Reward Optimization with Applications to DNA and Protein design](https://arxiv.org/abs/2410.13643)(2024)*.
 ![img](main_fig1.png)
 
 ## Data and Model Weights
