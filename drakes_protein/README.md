@@ -1,5 +1,5 @@
 ## Protein Sequence Design: Optimizing Stability in Inverse Folding Model
-This codebase is developed on top of [MultiFlow](https://github.com/jasonkyuyim/multiflow).
+This codebase is developed on top of [MultiFlow (Campbell & Yim et.al, 2024)](https://github.com/jasonkyuyim/multiflow).
 
 ### Environment Installation
 For the environment installation, please refer to [MultiFlow](https://github.com/jasonkyuyim/multiflow) for details.
@@ -74,3 +74,4 @@ bash ours.sh
 
 ### Adaptations
 Change the `base_path` in `fmif/finetune_reward_bp.py`, `fmif/eval_finetune.py`, `fmif/train_fmif.py`, `protein_oracle/train_oracle.py` to `BASE_PATH` for saving data and models.
+

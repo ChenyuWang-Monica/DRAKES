@@ -1,5 +1,5 @@
 ## Regulatory DNA Sequence Design
-This codebase is developed on top of [MDLM](https://github.com/kuleshov-group/mdlm).
+This codebase is developed on top of [MDLM (Sahoo et.al, 2023)](https://github.com/kuleshov-group/mdlm).
 
 ### Environment Installation
 ```
@@ -49,3 +49,8 @@ See `eval.ipynb`
 
 ### Adaptations
 Change the `base_path` in `dataloader_gosai.py`, `finetune_reward_bp.py`, `oracle.py`, `train_oracle.py`, `eval.ipynb` to `BASE_PATH` for saving data and models.
+
+### Acknowledgement 
+
+* The original dataset is provided by [Gosai et al., 2023](https://www.biorxiv.org/content/10.1101/2023.08.08.552077v1).
+* The trained oracle is based on [gReLU](https://genentech.github.io/gReLU/). 
