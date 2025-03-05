@@ -48,7 +48,7 @@ The fine-tuned model weights are provided in `BASE_PATH/mdlm/reward_bp_results_f
 See `eval.ipynb`
 
 ### Adaptations
-Change the `base_path` in `dataloader_gosai.py`, `finetune_reward_bp.py`, `oracle.py`, `train_oracle.py`, `eval.ipynb` to `BASE_PATH` for saving data and models.
+Change the `base_path` in `dataloader_gosai.py`, `finetune_reward_bp.py`, `oracle.py`, `train_oracle.py`, `eval.ipynb` to `BASE_PATH` for saving data and models, and change `hydra.run.dir` in `configs_gosai/config_gosai.yaml`.
 
 ### Acknowledgement 
 
