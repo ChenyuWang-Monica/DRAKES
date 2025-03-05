@@ -108,6 +108,7 @@ def _train(config, logger):
 
   model = diffusion_gosai.Diffusion(
     config, 
+    eval=True,
     )
 
   trainer = hydra.utils.instantiate(
