@@ -12,6 +12,7 @@ git clone https://github.com/Genentech/gReLU.git
 cd gReLU
 pip install .
 ```
+Note that you need to install `gReLU` package with version 1.0.2.
 
 ### Data and Model Weights
 All data and model weights can be downloaded from this link:
